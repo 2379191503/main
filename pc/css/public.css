@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.logo{
+	float: left;
+}
+.int{
+	float: left;
+	margin-left: 120px;
+	margin-top: 50px;
+	position: relative;
+}
+.int input{
+	width: 500px;
+	height: 35px;
+	border-radius: 20px;
+	outline: none;
+	border: 2px solid #f74718;
+	text-indent: 1em;
+}
+.int img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 7px;
+	right: 15px;
+}
+.hua{
+	float: right;
+	margin-top: 32px;
+	line-height: 35px;
+}
+.hua span{
+	display: block;
+	color: #999;
+}
+.hua span i{
+	color: #f74718;
+}
+.nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav >ul{
+	display: flex;
+	text-align: center;
+	height: 30px;
+}
+.nav >ul >li{
+	font-weight: bold;
+	flex: 1;
+}
+.nav >ul>li>a{
+	font-size: 20px;
+	color: #333;
+	display: block;
+	border-bottom: 3px solid #333;
+	padding-bottom: 12px;
+}
+.nav >ul >li>a:hover{
+	border-bottom: 3px solid #f74718;
+	color: #f74718;
+}
+
+.banner{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+.bg{
+	background: #f74718 !important;
+}
+.banner ul{
+	position: absolute;
+	bottom: 20px;
+	left: 48%;
+}
+.banner ul li{
+	width: 12px;
+	height: 12px;
+	float: left;
+	border-radius: 50%;
+	background: #fff;
+	margin-right: 20px;
+}
+.pics{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.pics img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.footer{
+	width: 100%;
+	background: #2d3237;
+}
+.ftop{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+}
+.ftop ul{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 35px;
+}
+.info h3{
+	color: #e5e5e5;
+	font-size: 16px;
+	line-height: 40px;
+}
+.info ol li{
+	line-height: 30px;
+}
+.info ol li a{
+	color: #e5e5e5;
+	font-size: 14px;
+}
+.fxia{
+	width: 100%;
+	background: #23282d;
+	padding-bottom: 35px;
+}
+.copy{
+	width: 1200px;
+	margin: 0 auto;
+}
+.copy p{
+	font-size: 14px;
+	color: #fff;
+	padding-top: 35px;
+}
+.copy span{
+	color: #fff;
+	font-size: 14px;
+	line-height: 50px;
+}
+.copy span:nth-child(3){
+	float: right;
+	margin-right: 100px;
+}
